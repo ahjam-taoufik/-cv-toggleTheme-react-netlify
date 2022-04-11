@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { themes } from './theme';
 
 export const themeContext = createContext();
@@ -10,10 +10,17 @@ const ThemeProvider = ({ children }) => {
 
   const toggleTheme = () => {
     setIsdark(!isdark);
+    localStorage.setItem('isdark', JSON.stringify(!isdark));
   };
 
-  const state = [{ isdark, theme, toggleTheme }];
+  useEffect(() => {
+    const isdark1 = localStorage.getItem('isdark')==='true';
+     setIsdark(isdark1);
+  }, [])
+  
 
+
+  const state = [{ isdark, theme, toggleTheme }];
   return (
     <themeContext.Provider value={state}>{children}</themeContext.Provider>
   );
