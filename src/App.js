@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App" style={{'backgroundColor':theme.backgroundColor,'color':theme.color}}>
       <header className="App-header">
-        <p>Salam Alikoum</p>
+        <p>Salam Alikoum every one</p>
 
         <button onClick={toggleTheme}>toggle theme</button>
       </header>
