@@ -1,3 +1,5 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=ahjam-taoufik_-cv-toggleTheme-react-netlify)](https://sonarcloud.io/summary/new_code?id=ahjam-taoufik_-cv-toggleTheme-react-netlify)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
