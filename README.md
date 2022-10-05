@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/19169/projects/22513/branches/666230/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=19169&pid=22513&bid=666230)
+
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=ahjam-taoufik_-cv-toggleTheme-react-netlify)](https://sonarcloud.io/summary/new_code?id=ahjam-taoufik_-cv-toggleTheme-react-netlify)
 
 # Getting Started with Create React App
